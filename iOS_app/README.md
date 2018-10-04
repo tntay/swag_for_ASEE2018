@@ -1,1 +1,1 @@
-# iOS app to connect to gizmo
+# Learning Swift 3.0
