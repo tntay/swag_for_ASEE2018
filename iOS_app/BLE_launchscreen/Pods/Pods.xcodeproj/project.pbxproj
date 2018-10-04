@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05E66827393E18AFD9B48028DAB8CBF9 /* LMGaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96E14F1157FD2FAB8B05DBB13993F9 /* LMGaugeView.m */; };
+		0B1D59CFF31D11E76FA419A429866CB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		33D192C5751FAA64CA76C8E41E80B310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		60892B2053FBA4816A0BEC698933F966 /* LMGaugeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E84CBE0CD51DCDA36EBD491A2151E70 /* LMGaugeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77769F25E5342D3041FCB10689AB3148 /* Pods-Basic Chat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2254B8A358C605961D441A047C4B59 /* Pods-Basic Chat-dummy.m */; };
+		C8843F529A0F07B31DC5B734FD68DFAF /* LMGaugeView.h in Headers */ = {isa = PBXBuildFile; fileRef = D5611B8B07227F8210B408C0A7BD6547 /* LMGaugeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA0CF8899BA4D7446F140DE541831B94 /* LMGaugeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A9B299C93D19910375041944A17E7F /* LMGaugeView-dummy.m */; };
+		D4110948DB10E4C097A17288F9882CB3 /* Pods-Basic Chat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1829D831A1AA7FDF708DA355F1448701 /* Pods-Basic Chat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4666B0B6F545757AA556C1B56043E86E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78303571788570E322DE381DF9F361AF;
+			remoteInfo = LMGaugeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14C379A9E3F264F288C4A1F5CEA4F999 /* Pods-Basic Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Basic Chat.release.xcconfig"; sourceTree = "<group>"; };
+		16A9B299C93D19910375041944A17E7F /* LMGaugeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LMGaugeView-dummy.m"; sourceTree = "<group>"; };
+		1829D831A1AA7FDF708DA355F1448701 /* Pods-Basic Chat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Basic Chat-umbrella.h"; sourceTree = "<group>"; };
+		4B18FDFABBF176035BF38183974F7765 /* Pods_Basic_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Basic_Chat.framework; path = "Pods-Basic Chat.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5AD8200932E899E1027242E0A87E38E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CBA17BB970ECA9ECF5AA25CB407A756 /* Pods-Basic Chat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Basic Chat.modulemap"; sourceTree = "<group>"; };
+		6E84CBE0CD51DCDA36EBD491A2151E70 /* LMGaugeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMGaugeView-umbrella.h"; sourceTree = "<group>"; };
+		7C2254B8A358C605961D441A047C4B59 /* Pods-Basic Chat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Basic Chat-dummy.m"; sourceTree = "<group>"; };
+		809FEB2DD5130E63EDC7C436EB85EAE7 /* Pods-Basic Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Basic Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98DD52E450A9604AAC816C5DFEF42A9E /* Pods-Basic Chat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Basic Chat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9FFB243CF3B9913830AE7E31FBCBE69E /* LMGaugeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LMGaugeView.framework; path = LMGaugeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C3A121D35A183CA5DA6CD2528D80A3 /* Pods-Basic Chat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Basic Chat-frameworks.sh"; sourceTree = "<group>"; };
+		BCA85233EF7892FBA3A220C8CFBC9DC0 /* LMGaugeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LMGaugeView.modulemap; sourceTree = "<group>"; };
+		D05B31C2AFDF813B640EF56007041503 /* LMGaugeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMGaugeView-prefix.pch"; sourceTree = "<group>"; };
+		D5611B8B07227F8210B408C0A7BD6547 /* LMGaugeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMGaugeView.h; path = LMGaugeView/LMGaugeView.h; sourceTree = "<group>"; };
+		DB96E14F1157FD2FAB8B05DBB13993F9 /* LMGaugeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMGaugeView.m; path = LMGaugeView/LMGaugeView.m; sourceTree = "<group>"; };
+		E5D34A1747C6C0A32529DDAFD47C4DE4 /* Pods-Basic Chat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Basic Chat-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA010E426C6A86408881A734F60ADD6C /* LMGaugeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LMGaugeView.xcconfig; sourceTree = "<group>"; };
+		F673B3C11CE7739A45944072C3AAC9AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7414B97300E1C3F8AE3E3313A86A7EC /* Pods-Basic Chat-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Basic Chat-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65BEEE89D7C63CB121680F60E763A238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D192C5751FAA64CA76C8E41E80B310 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83CDBCF790112A64D56218B1C7269C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1D59CFF31D11E76FA419A429866CB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		138F2C77661DF2FFB811955691ECD151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FFB243CF3B9913830AE7E31FBCBE69E /* LMGaugeView.framework */,
+				4B18FDFABBF176035BF38183974F7765 /* Pods_Basic_Chat.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2444976B6E27BADE9184A2BEFE1607D5 /* Pods-Basic Chat */ = {
+			isa = PBXGroup;
+			children = (
+				F673B3C11CE7739A45944072C3AAC9AB /* Info.plist */,
+				6CBA17BB970ECA9ECF5AA25CB407A756 /* Pods-Basic Chat.modulemap */,
+				98DD52E450A9604AAC816C5DFEF42A9E /* Pods-Basic Chat-acknowledgements.markdown */,
+				E5D34A1747C6C0A32529DDAFD47C4DE4 /* Pods-Basic Chat-acknowledgements.plist */,
+				7C2254B8A358C605961D441A047C4B59 /* Pods-Basic Chat-dummy.m */,
+				B5C3A121D35A183CA5DA6CD2528D80A3 /* Pods-Basic Chat-frameworks.sh */,
+				F7414B97300E1C3F8AE3E3313A86A7EC /* Pods-Basic Chat-resources.sh */,
+				1829D831A1AA7FDF708DA355F1448701 /* Pods-Basic Chat-umbrella.h */,
+				809FEB2DD5130E63EDC7C436EB85EAE7 /* Pods-Basic Chat.debug.xcconfig */,
+				14C379A9E3F264F288C4A1F5CEA4F999 /* Pods-Basic Chat.release.xcconfig */,
+			);
+			name = "Pods-Basic Chat";
+			path = "Target Support Files/Pods-Basic Chat";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		75FD77D709DFDBC4AD85660357D20DB1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2444976B6E27BADE9184A2BEFE1607D5 /* Pods-Basic Chat */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F172CED2054DFC7EFBBF5ED8AFA20723 /* Pods */,
+				138F2C77661DF2FFB811955691ECD151 /* Products */,
+				75FD77D709DFDBC4AD85660357D20DB1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9F683A54169247518A124FAF20FB383A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AD8200932E899E1027242E0A87E38E9 /* Info.plist */,
+				BCA85233EF7892FBA3A220C8CFBC9DC0 /* LMGaugeView.modulemap */,
+				EA010E426C6A86408881A734F60ADD6C /* LMGaugeView.xcconfig */,
+				16A9B299C93D19910375041944A17E7F /* LMGaugeView-dummy.m */,
+				D05B31C2AFDF813B640EF56007041503 /* LMGaugeView-prefix.pch */,
+				6E84CBE0CD51DCDA36EBD491A2151E70 /* LMGaugeView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LMGaugeView";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2870BA1DA0099FB5C29C76D34E66709 /* LMGaugeView */ = {
+			isa = PBXGroup;
+			children = (
+				D5611B8B07227F8210B408C0A7BD6547 /* LMGaugeView.h */,
+				DB96E14F1157FD2FAB8B05DBB13993F9 /* LMGaugeView.m */,
+				9F683A54169247518A124FAF20FB383A /* Support Files */,
+			);
+			name = LMGaugeView;
+			path = LMGaugeView;
+			sourceTree = "<group>";
+		};
+		F172CED2054DFC7EFBBF5ED8AFA20723 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2870BA1DA0099FB5C29C76D34E66709 /* LMGaugeView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		502CFC1B3140816A69C3FF658DC71C4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4110948DB10E4C097A17288F9882CB3 /* Pods-Basic Chat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD8829D4C0615657BA345C546912D36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60892B2053FBA4816A0BEC698933F966 /* LMGaugeView-umbrella.h in Headers */,
+				C8843F529A0F07B31DC5B734FD68DFAF /* LMGaugeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		78303571788570E322DE381DF9F361AF /* LMGaugeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18118C08B012E18F46870EAA84975750 /* Build configuration list for PBXNativeTarget "LMGaugeView" */;
+			buildPhases = (
+				73D62F167E0CD8ADD33FC510A873885A /* Sources */,
+				65BEEE89D7C63CB121680F60E763A238 /* Frameworks */,
+				FAD8829D4C0615657BA345C546912D36 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMGaugeView;
+			productName = LMGaugeView;
+			productReference = 9FFB243CF3B9913830AE7E31FBCBE69E /* LMGaugeView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9089F33B191FD538542D6CF82150A389 /* Pods-Basic Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B687A84F26995E4E43A9A3B0AC9C065C /* Build configuration list for PBXNativeTarget "Pods-Basic Chat" */;
+			buildPhases = (
+				8F50CD263AD7415F770E88FA6177D836 /* Sources */,
+				C83CDBCF790112A64D56218B1C7269C9 /* Frameworks */,
+				502CFC1B3140816A69C3FF658DC71C4F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DDE6B5ADFBDE52C7BE06AC62611A0FC /* PBXTargetDependency */,
+			);
+			name = "Pods-Basic Chat";
+			productName = "Pods-Basic Chat";
+			productReference = 4B18FDFABBF176035BF38183974F7765 /* Pods_Basic_Chat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 138F2C77661DF2FFB811955691ECD151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78303571788570E322DE381DF9F361AF /* LMGaugeView */,
+				9089F33B191FD538542D6CF82150A389 /* Pods-Basic Chat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73D62F167E0CD8ADD33FC510A873885A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0CF8899BA4D7446F140DE541831B94 /* LMGaugeView-dummy.m in Sources */,
+				05E66827393E18AFD9B48028DAB8CBF9 /* LMGaugeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F50CD263AD7415F770E88FA6177D836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77769F25E5342D3041FCB10689AB3148 /* Pods-Basic Chat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DDE6B5ADFBDE52C7BE06AC62611A0FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LMGaugeView;
+			target = 78303571788570E322DE381DF9F361AF /* LMGaugeView */;
+			targetProxy = 4666B0B6F545757AA556C1B56043E86E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE7C11791D43B71BFE383B3A5007E143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14C379A9E3F264F288C4A1F5CEA4F999 /* Pods-Basic Chat.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Basic Chat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Basic Chat/Pods-Basic Chat.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEDD94164CF684510454214C875B2242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 809FEB2DD5130E63EDC7C436EB85EAE7 /* Pods-Basic Chat.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Basic Chat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Basic Chat/Pods-Basic Chat.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE6BB864FB202B78BB66ACCAACAA0513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CF76A09C3B09DA1B0DB6FD5DB2C3A2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F16F9139538CA1AE1B3659A7DF127F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA010E426C6A86408881A734F60ADD6C /* LMGaugeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LMGaugeView/LMGaugeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LMGaugeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LMGaugeView/LMGaugeView.modulemap";
+				PRODUCT_MODULE_NAME = LMGaugeView;
+				PRODUCT_NAME = LMGaugeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD5C9842C7219262D1C4820BF0F9D3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA010E426C6A86408881A734F60ADD6C /* LMGaugeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LMGaugeView/LMGaugeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LMGaugeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LMGaugeView/LMGaugeView.modulemap";
+				PRODUCT_MODULE_NAME = LMGaugeView;
+				PRODUCT_NAME = LMGaugeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18118C08B012E18F46870EAA84975750 /* Build configuration list for PBXNativeTarget "LMGaugeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16F9139538CA1AE1B3659A7DF127F67 /* Debug */,
+				FD5C9842C7219262D1C4820BF0F9D3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF76A09C3B09DA1B0DB6FD5DB2C3A2A2 /* Debug */,
+				CE6BB864FB202B78BB66ACCAACAA0513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B687A84F26995E4E43A9A3B0AC9C065C /* Build configuration list for PBXNativeTarget "Pods-Basic Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDD94164CF684510454214C875B2242 /* Debug */,
+				AE7C11791D43B71BFE383B3A5007E143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

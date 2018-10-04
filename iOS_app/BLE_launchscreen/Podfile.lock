@@ -1,0 +1,16 @@
+PODS:
+  - LMGaugeView (1.0.3)
+
+DEPENDENCIES:
+  - LMGaugeView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LMGaugeView
+
+SPEC CHECKSUMS:
+  LMGaugeView: 043dfe2a51abf37c87fdda22837fd1af0531c478
+
+PODFILE CHECKSUM: 90c9c2f2f10d4f8a38e28e260200a5e95079015a
+
+COCOAPODS: 1.5.3
