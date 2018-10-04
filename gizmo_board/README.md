@@ -1,1 +1,1 @@
-# Gizmo board for ASEE conference 2018
+# Gizmo board schematic and layout
